@@ -1,0 +1,6 @@
+setuptools<81
+numpy<2
+tensorflow==2.15.1
+tf-keras==2.15.1
+tensorflow-hub==0.16.1
+sounddevice

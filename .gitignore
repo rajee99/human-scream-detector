@@ -1,0 +1,25 @@
+# Virtual Environments
+.venv/
+.venv-scream/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Alert logs and test outputs
+*.csv
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
