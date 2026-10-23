@@ -9,6 +9,7 @@ This is a prototype, not a safety-critical alarm. Test it with screams and simil
 Place these files in the same folder:
 
 - `scream_detector.py` — the detector script
+- `event_detector_v2.py` — multi-event emergency sound detector (screams, sirens, alarms, breaking glass)
 - `requirements.txt` — Python dependencies
 - `README.md` — these instructions
 
@@ -72,6 +73,12 @@ From `D:\ml\new attempt`:
 
 ```powershell
 & ".\.venv-scream\Scripts\python.exe" ".\scream_detector.py"
+```
+
+Or to run the multi-event detector (screams, sirens, alarms, and glass shatter):
+
+```powershell
+& ".\.venv-scream\Scripts\python.exe" ".\event_detector_v2.py"
 ```
 
 The program displays:
