@@ -20,7 +20,7 @@ EVENT_RULES = {
     "scream": {"threshold": 0.35, "required_hits": 2},
     "siren": {"threshold": 0.35, "required_hits": 2},
     "alarm": {"threshold": 0.35, "required_hits": 2},
-    "breaking_glass": {"threshold": 0.50, "required_hits": 1},
+    "breaking_glass": {"threshold": 0.07, "required_hits": 1},
 }
 
 SCRIPT_DIR = Path(__file__).resolve().parent
